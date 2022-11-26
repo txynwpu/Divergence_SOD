@@ -46,9 +46,9 @@ You need to modify the data path in `train.py` and `test.py` to your own data pa
 ## Training and testing
 We present an ensemble based framework and three latent variable model based solutions(VAE, GAN and ABP) to validate our divergence modeling strategy. 
 
-![image](https://github.com/txynwpu/Divergence_SOD/blob/main/image/network.PNG)
+<!-- ![image](https://github.com/txynwpu/Divergence_SOD/blob/main/image/network.PNG) -->
 
-<img src="https://github.com/txynwpu/Divergence_SOD/blob/main/image/network.PNG" width="200" height="200" alt="net"/><br/>
+<img src="https://github.com/txynwpu/Divergence_SOD/blob/main/image/network.PNG" width="800" alt="net"/><br/>
 
 To train each method based model, run
 ```bash
