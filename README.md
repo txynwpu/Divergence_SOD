@@ -48,6 +48,8 @@ We present an ensemble based framework and three latent variable model based sol
 
 ![image](https://github.com/txynwpu/Divergence_SOD/blob/main/image/network.PNG)
 
+<img src="https://github.com/txynwpu/Divergence_SOD/blob/main/image/network.PNG" width="200" height="200" alt="net"/><br/>
+
 To train each method based model, run
 ```bash
 $ python train.py
