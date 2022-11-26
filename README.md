@@ -60,6 +60,7 @@ After testing, for each test image, we can get a majority voting prediction, 5 d
 ## Citation
 If you are interested in our work, welcome to discuss with us and cite our paper. 
 
+```
 @inproceedings{tian2022general,
   title={A General Divergence Modeling Strategy for Salient Object Detection},
   author={Tian, Xinyu and Zhang, Jing and Dai, Yuchao},
@@ -67,7 +68,7 @@ If you are interested in our work, welcome to discuss with us and cite our paper
   pages={2406--2424},
   year={2022}
 }
-
+```
 
 
 
