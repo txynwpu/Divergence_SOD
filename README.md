@@ -19,6 +19,7 @@ Cuda 11.4
 We use the [COME dataset](https://github.com/JingZhang617/cascaded_rgbd_sod) for training as it’s the only large saliency training dataset containing multiple annotations for each image, where an image has 5 gts from different annotators and a majority voting gt. 
 
 Train dataset path structure
+
     train_data_root
     ├── image
     ├── gt
@@ -30,6 +31,7 @@ Train dataset path structure
         └── gt5 
         
 Test dataset path structure
+
     test_data_root
         ├── COME-E
         ├── COME-H
