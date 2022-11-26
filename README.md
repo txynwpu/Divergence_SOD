@@ -9,13 +9,13 @@ Salient object detection is subjective in nature, which implies that multiple es
 ## Motivation
 
 <!-- ![image](https://github.com/txynwpu/Divergence_SOD/blob/main/image/motivation.PNG) -->
-<img src="https://github.com/txynwpu/Divergence_SOD/blob/main/image/motivation.PNG" width="600" alt="net"/><br/>
+<img src="https://github.com/txynwpu/Divergence_SOD/blob/main/image/motivation.PNG" width="700" alt="net"/><br/>
 
 In the process of saliency map labeling, the labeling is often done by multiple annotators, and then the regions that receive consensus are labeled as saliency after majority voting. However, Most of the existing SOD models intend to **achieve the point estimation** from input image to the corresponding ground truth saliency map, **neglecting the less consistent saliency regions** discarded while generating the ground truth maps via majority voting. In this paper, we study “divergence modeling” for SOD, representing the “subjective nature” of saliency.
 
 ## Environment
-Pytorch 1.10.0
-Torchvision 0.11.1
+Pytorch 1.10.0  
+Torchvision 0.11.1  
 Cuda 11.4
 
 ## Dataset
@@ -50,7 +50,7 @@ We present an ensemble based framework and three latent variable model based sol
 
 <!-- ![image](https://github.com/txynwpu/Divergence_SOD/blob/main/image/network.PNG) -->
 
-<img src="https://github.com/txynwpu/Divergence_SOD/blob/main/image/network.PNG" width="600" alt="net"/><br/>
+<img src="https://github.com/txynwpu/Divergence_SOD/blob/main/image/network.PNG" width="700" alt="net"/><br/>
 
 To train each method based model, run
 ```bash
@@ -63,7 +63,7 @@ $ python test.py
 After testing, for each test image, we can get a majority voting prediction, 5 diverse predictions and an uncertainty map.
 
 <!-- ![image](https://github.com/txynwpu/Divergence_SOD/blob/main/image/predictions.PNG) -->
-<img src="https://github.com/txynwpu/Divergence_SOD/blob/main/image/network.PNG" width="600" alt="net"/><br/>
+<img src="https://github.com/txynwpu/Divergence_SOD/blob/main/image/network.PNG" width="700" alt="net"/><br/>
 
 ## Citation
 If you are interested in our work, welcome to discuss with us and cite our paper. 
